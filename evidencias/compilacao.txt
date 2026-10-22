@@ -1,0 +1,20 @@
+Data: 2026-09-17
+
+Frontend
+Comando: npm run typecheck
+Resultado: exit code 0, sem erros TypeScript.
+
+Comando: CI=1 EXPO_OFFLINE=1 npx expo export --platform web
+Resultado: exit code 0; dist/index.html e bundle web gerados.
+
+Comando: Expo start --web --offline --port 8081
+Resultado: Metro inicializado e aplicação carregada no Chromium.
+
+Backend
+Comando: ./mvnw package com proxy do ambiente e argumento de JVM para o teste:
+-DargLine=-javaagent:/root/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar
+Resultado: BUILD SUCCESS; Tests run: 1, Failures: 0, Errors: 0, Skipped: 0.
+O agente foi carregado no início da JVM porque o ambiente não suporta anexação dinâmica do Mockito; isso não altera o projeto entregue.
+
+Validação de datas
+PASS: data comum, data inexistente, meses com 30 dias, mês 13, ano zero, anos bissextos 2024/2000 e não bissextos 2026/1900; formatação 2026-05-10 -> 10/05/2026.

@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-09-17T21:43:34.627Z",
+  "checks": [
+    {
+      "test": "API real: CRUD, 404 e preflight CORS",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Inicialização Expo/Metro web",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Lista carrega GET real",
+      "status": "PASS",
+      "details": "2 equipamentos originais"
+    },
+    {
+      "test": "Formulário impede campos vazios e datas inválidas sem POST",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Cadastro POST 201, bloqueio durante envio e detalhe GET pelo ID",
+      "status": "PASS",
+      "details": "id=5"
+    },
+    {
+      "test": "Retorno e reload do frontend preservam equipamento via GET",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "H2 file mantém o cadastro após reiniciar o backend",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Detalhe com backend desligado mostra erro",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Lista com backend desligado mostra erro e tentativa novamente",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "POST com backend desligado mostra erro e preserva formulário",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Tentar novamente recupera a lista após religar API",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Detalhe diferencia HTTP 404",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Nenhum erro JavaScript não tratado durante os fluxos",
+      "status": "PASS",
+      "details": ""
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos",
+      "body": null
+    },
+    {
+      "method": "POST",
+      "url": "http://localhost:8080/equipamentos",
+      "body": "{\"nome\":\"Prensa Sprint 3 - Integração\",\"setor\":\"Linha A\",\"statusOperacional\":\"ATIVO\",\"ultimaManutencao\":\"2026-05-10\"}"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos/5",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos/5",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos",
+      "body": null
+    },
+    {
+      "method": "POST",
+      "url": "http://localhost:8080/equipamentos",
+      "body": "{\"nome\":\"Falha de conexão\",\"setor\":\"Teste\",\"statusOperacional\":\"ATIVO\",\"ultimaManutencao\":\"2026-05-10\"}"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos",
+      "body": null
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/equipamentos/5",
+      "body": null
+    }
+  ]
+}

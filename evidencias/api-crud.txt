@@ -1,0 +1,7 @@
+PASS POST /equipamentos - 201, JSON e ID gerado
+PASS GET /equipamentos - 200, registro presente e CORS
+PASS GET /equipamentos/{id} - 200, objeto correspondente
+PASS PUT /equipamentos/{id} - 200, alteração persistida
+PASS OPTIONS - preflight CORS para POST JSON
+PASS DELETE - 204; GET/PUT/DELETE de ID ausente - 404
+Todos os testes de API passaram.

@@ -2,7 +2,7 @@
 
 **Entrega final FIAP · Engenharia da Computação · 3ECR · Integração Spring Boot + React Native/Expo**
 
-> **Estado da entrega:** Frontend e backend da Sprint 3 aprovada (nota 100) publicados neste repositório independente para Sprint 4. Testes funcionais não foram repetidos, conforme solicitado. O vídeo da demonstração ainda precisa ser gravado e linkado.
+> **Estado da entrega:** Frontend e backend da Sprint 3 aprovada (nota 100) publicados neste repositório independente para Sprint 4. Testes funcionais não foram repetidos, conforme solicitado. O link da demonstração final no YouTube foi adicionado ao README. Confirme que a visibilidade está como **Não listado** e que o vídeo tem até 5 minutos.
 
 ## 1. Projeto, problema e solução
 
@@ -25,7 +25,7 @@ O projeto Metaindústria visa apoiar a gestão de ativos industriais e a visibil
 
 **Fonte original da Sprint 3:** [Sprint3-Metaindustria](https://github.com/JeanDepieri/Sprint3-Metaindustria). Para fins de histórico, sem necessidade de alterá-lo.
 
-**Vídeo de demonstração:** PENDENTE — inserir o URL do YouTube **Não listado**, até 5 minutos, após gravar.
+**Vídeo de demonstração:** [Sprint 4 | Metaindústria — Entrega Final (https://youtu.be/BnFtq--t4h0)](https://youtu.be/BnFtq--t4h0). Configure o vídeo no YouTube como **Não listado** (não Privado), com duração de até 5 minutos.
 
 **Observação sobre repositórios:** esta versão publica frontend e backend em duas pastas do mesmo repositório. Se o professor exigir rigorosamente dois repositórios GitHub distintos, será necessário separar os dois diretórios.
 
@@ -214,7 +214,7 @@ O aplicativo demonstra os três fluxos; `PUT` e `DELETE` estão disponíveis na 
 | `3:45 – 4:40` | `Ctrl+C` no backend; recarregar/atualizar app; mostrar **erro visível, sem mock** |
 | `4:40 – 5:00` | Resumo dos serviços e encerramento (sem ultrapassar 5 min) |
 
-**Publicação:** faça o upload no YouTube com visibilidade **Não listado**, copie o URL e substitua a célula **Vídeo YouTube** desta seção de links **antes** de entregar. *Não publicar como Privado*, pois o professor não conseguiria assistir pelo link. Grave a demonstração real do sistema. As evidências da Sprint 3 não substituem o vídeo da Sprint 4.
+**Vídeo publicado pela equipe:** https://youtu.be/BnFtq--t4h0. Antes de entregar, confira no YouTube Studio que a visibilidade é **Não listado**, e teste se o link abre sem estar conectado à conta que fez o upload. Não use **Privado**, pois o professor não poderá assistir apenas com o link.
 
 ## 8. Checklist de entrega (100 pontos)
 
@@ -223,8 +223,8 @@ O aplicativo demonstra os três fluxos; `PUT` e `DELETE` estão disponíveis na 
 - [x] README completo: projeto, entidade, equipe/RMs, setup, `BASE_URL`, endpoints, mapeamento tela/serviço/endpoint, queda do backend, roteiro.
 - [x] Frontend e backend separados nas pastas `frontend/` e `backend/` deste repositório.
 - [x] Publicar os códigos e a documentação no repositório independente da Sprint 4.
-- [ ] **Gravar e publicar** vídeo no YouTube como **Não listado**, até 5 minutos.
-- [ ] **Colar link real do vídeo no README publicado** e conferir acesso público ao GitHub + acesso por link ao vídeo.
+- [x] **Adicionar o URL do vídeo** fornecido pela equipe: https://youtu.be/BnFtq--t4h0.
+- [ ] **Conferir no YouTube Studio** visibilidade **Não listado**, duração de até 5 minutos e acesso ao vídeo por link sem login; conferir acesso ao GitHub.
 
 **Peso na avaliação:** sistema integrado (30) · README reproduzível (35) · vídeo com front ↔ back e backend parado (35).
 

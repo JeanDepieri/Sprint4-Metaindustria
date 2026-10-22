@@ -31,4 +31,4 @@ O backend deve estar ativo na porta **8080**.
 
 O app não apresenta registros fictícios quando a API está indisponível. Recarregue a lista com o backend parado para observar a mensagem de erro.
 
-**Vídeo da Sprint 4:** PENDENTE — publicar no YouTube como Não listado (até 5 min) e inserir o link no README raiz.
+**Vídeo da Sprint 4:** https://youtu.be/BnFtq--t4h0 — confirme visibilidade **Não listado** e até 5 min.

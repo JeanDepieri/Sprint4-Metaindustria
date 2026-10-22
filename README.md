@@ -27,6 +27,8 @@ O projeto Metaindústria visa apoiar a gestão de ativos industriais e a visibil
 
 **Vídeo de demonstração:** PENDENTE — inserir o URL do YouTube **Não listado**, até 5 minutos, após gravar.
 
+**Observação sobre repositórios:** esta versão publica frontend e backend em duas pastas do mesmo repositório. Se o professor exigir rigorosamente dois repositórios GitHub distintos, será necessário separar os dois diretórios.
+
 ## 2. Arquitetura
 
 ```text
@@ -48,7 +50,7 @@ Metaindústria — Sprint 4
 ├── backend/                       # Java 17 / Spring Boot / H2
 │   ├── pom.xml
 │   ├── mvnw / mvnw.cmd
-│   ├── data/sprint1db.mv.db       # Banco H2 em arquivo da Sprint 3
+│   ├── data/.gitkeep               # Pasta para banco H2 persistente
 │   └── src/main/
 │       ├── java/com/FIAP/Sprint1_2026_APeMD/
 │       │   ├── controller/EquipamentoController.java
@@ -56,7 +58,7 @@ Metaindústria — Sprint 4
 │       │   ├── repository/EquipamentoRepository.java
 │       │   └── model/Equipamento.java
 │       └── resources/application.properties
-├── evidencias/                    # Registros textuais herdados da Sprint 3
+├── evidencias/                    # Evidências textuais herdadas da Sprint 3
 ├── docs/historico/                # Documentação histórica
 └── README.md
 ```
@@ -101,7 +103,7 @@ Se preferir Maven instalado, substitua o wrapper por `mvn spring-boot:run`. Não
 
 - **Porta da API:** `8080` (definida em `backend/src/main/resources/application.properties`).
 - **GET de verificação:** <http://localhost:8080/equipamentos> → JSON (array, inclusive `[]` se vazio).
-- **H2 persistente:** `jdbc:h2:file:./data/sprint1db`. O arquivo é relativo à pasta de execução `backend/`.
+- **H2 persistente:** `jdbc:h2:file:./data/sprint1db`. O banco é criado na pasta `backend/data/` na primeira execução; um clone novo não contém os registros antigos.
 - **H2 Console:** <http://localhost:8080/h2-console> | usuário `sa` | senha vazia.
 - **CORS:** `@CrossOrigin(origins = "*")` em `EquipamentoController` para o frontend web (configuração acadêmica; restringir em produção).
 

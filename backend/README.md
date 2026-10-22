@@ -30,4 +30,4 @@ Banco: `jdbc:h2:file:./data/sprint1db`. A pasta `data/` já está incluída para
 
 As camadas são `controller`, `service`, `repository`, `model`. O controller possui CORS para demonstração acadêmica.
 
-**Vídeo:** PENDENTE no README raiz.
+**Vídeo da Sprint 4:** https://youtu.be/BnFtq--t4h0 — consulte também o README raiz.
